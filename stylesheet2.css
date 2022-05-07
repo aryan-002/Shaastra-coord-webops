@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(255, 209, 5);
+}
+.About{
+    padding: 40px 50px;
+    margin: auto;
+width: 100%;
+min-height: 100vh;
+background-color: rgb(228, 180, 25);
+background-size: cover;
+
+}
+
+.about-text{
+margin: auto;
+height: 0%;
+width: 300%;
+padding: 125px;
+font-size: 300%;
+}
+.main{
+height: 0%;
+width: 1200px;
+max-width: 95%;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+}
+.about-text h1{
+margin: auto;
+color: rgb(255, 255, 255);
+font-size: 700%;
+text-transform: capitalize;
+margin-bottom: 450px;
+}
+.about-text h5{
+margin: auto;
+color: rgb(0, 0, 0);
+font-size: 200%;
+text-transform: capitalize;
+margin-bottom: 60px;
+letter-spacing: 30px;
+}
+.about-text p{
+margin: 0px;
+padding: 0%;
+font-size: 150%;
+color: rgb(17, 17, 17);
+
+}
+span{
+color: red;
+}
+button{
+background: rgb(5, 5, 5);
+color: rgb(255, 255, 255);
+font-size: 250%;
+border: 4px solid transparent;
+font-weight: bold;
+padding: 29px 320px;
+border-radius: 195px;
+align-items: center;
+}
+button:hover{
+background: transparent;
+border: 2px solid bisque;
+cursor: pointer;
+
+}
