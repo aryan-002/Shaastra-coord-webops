@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+
+
+.left{
+    display :inline-block;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+.left img{
+    width: 65%;
+    filter: brightness();
+}
+.left div{
+    text-align: var(30px);
+    color: rgb(0, 0, 0);
+    font-size: 400%;
+    line-height: 60px;
+}
+.mid{
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+    
+}
+
+.right{
+    position: absolute ;
+    right: 10px;
+    top: 10px;
+    display:inline-block;
+}
+.right img{
+
+    width: 23%;
+}
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-table;
+    font-size: 75px ;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 40px 50px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: rgb(88, 85, 85);
+    
+}
+.btn{
+    margin: 0px 15px;
+    color: blanchedalmond;
+    background-color: black;
+    padding: 50px 204px;
+    font-size: 300%;
+    border: 2px solid grey;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Source Code Pro';
+}
+.btn:hover{
+    background-color: gray;
+
+}
+.container{
+    border-radius: 28px;
+    border: 12px solid rgb(255, 255, 255);
+    margin: 406px 140px;
+    padding: 62px 161px;
+    font-family: 'Source Code Pro';
+    font-size: 200%;
+}
+.form-group input{
+    text-align:centre ;
+    display: block;
+    width: 1407px;
+    padding: 67px;
+    border: 2px;
+    margin:45px auto;
+    font-size: 150%;
+
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width:23%;
+    margin: auto;
+}

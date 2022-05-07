@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SPARK </title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&family=Ubuntu:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<body>
+   
+    <style>
+        body{
+            font-family: 'Source Code Pro' ;
+            margin: 0px;
+            padding: 0;
+            background: url('bg2.jpg') ;
+            height:100%;
+            
+        }
+        .left{
+            display :inline-block;
+            position: absolute;
+            left: 50px;
+            top: 20px;
+        }
+        .left img{
+            width: 65%;
+            filter: brightness();
+        }
+        .left div{
+            text-align: var(30px);
+            color: rgb(0, 0, 0);
+            font-size: 400%;
+            line-height: 60px;
+        }
+        .mid{
+            display: block;
+            width: 40%;
+            margin: 20px auto;
+            
+        }
+
+        .right{
+            position: absolute ;
+            right: 10px;
+            top: 10px;
+            display:inline-block;
+        }
+        .right img{
+        
+            width: 23%;
+        }
+        .navbar{
+            display: inline-block;
+        }
+
+        .navbar li{
+            display: inline-table;
+            font-size: 75px ;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 40px 50px;
+        }
+        .navbar li a:hover, .navbar li a.active{
+            text-decoration: underline;
+            color: rgb(88, 85, 85);
+            
+        }
+        .btn{
+            margin: 0px 15px;
+            color: blanchedalmond;
+            background-color: black;
+            padding: 50px 204px;
+            font-size: 300%;
+            border: 2px solid grey;
+            border-radius: 20px;
+            cursor: pointer;
+            font-family: 'Source Code Pro';
+        }
+        .btn:hover{
+            background-color: gray;
+
+        }
+        .container{
+            background-color: rgba(0,0,0,0.5);
+            border-radius: 28px;
+            border: 12px solid rgb(255, 255, 255);
+            margin: 406px 140px;
+            padding: 62px 161px;
+            font-family: 'Source Code Pro';
+            font-size: 200%;
+        }
+        .form-group input{
+            text-align:centre ;
+            display: block;
+            width: 1407px;
+            padding: 67px;
+            border: 2px;
+            margin:45px auto;
+            font-size: 150%;
+
+        }
+        .container h1{
+            text-align: center;
+            font-size: 300%;
+            color: yellow;
+        }
+        .container button{
+            display: block;
+            width: 23%;
+            margin: auto;
+        }
+        .About{
+            margin: auto;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    background-size: cover;
+
+}
+
+.about-text{
+    margin: auto;
+    height: 0%;
+    width: 45%;
+    position: absolute;
+    padding: 0px;
+    font-size: 300%;
+}
+.main{
+    height: 0%;
+    width: 1200px;
+    max-width: 95%;
+    margin: auto;
+    display: flex;
+align-items: center;
+    justify-content: baseline;
+
+}
+.about-text h1{
+    margin: auto;
+    color: rgb(109, 109, 109);
+    font-size: 700%;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.about-text h5{
+    margin: auto;
+    color: rgb(255, 255, 255);
+    font-size: 200%;
+    text-transform: capitalize;
+    margin-bottom: 2%;
+    letter-spacing: 9px;
+}
+.about-text p{
+    margin: 0px;
+    padding: 0%;
+    font-size: 150%;
+    color: rgb(255, 217, 0);
+
+}
+span{
+    color: red;
+}
+button{
+    background: rgb(240, 48, 48);
+    color: rgb(15, 15, 15);
+    font-size: 250%;
+    border: 4px solid transparent;
+    font-weight: bold;
+    padding: 32px 29px;
+    border-radius: 200px;
+    align-items: center;
+}
+button:hover{
+    background: transparent;
+    border: 2px solid bisque;
+    cursor: pointer;
+
+}
+    </style>
+    <header class="header">
+        <div class="left">
+           <img src="Logo.png" alt="">
+           <div>powered</div>
+           <div>by</div>
+           <div>SHAASTRA</div> 
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="About Us.html" title="-blank">About Us</a></li>
+                <li><a href="#">Register Here</a> </li>
+                <li><a href="contactus.html" title="_blank">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Email Us</button>
+             <button class="btn">Study Material</button>
+            <div> </div>
+        </div>
+    </header>
+    <div class="container">
+        <h1> Be the next Genius </h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your mobile number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div> 
+    
+    <div class="About">
+        <div class="main">
+            <div class="about-text">
+                <h1>"Spark"</h1>
+                <h5>We Aspire <span>To Inspire</span></h5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita consectetur a doloremque et eveniet sapiente repellendus aut iusto consequuntur! Quae et provident culpa iusto? Doloremque accusantium quae impedit vero molestiae.</p>
+           <button type="button">Read More</button>
+             </div>
+        </div>
+    </section>
+</body>
+</html>
